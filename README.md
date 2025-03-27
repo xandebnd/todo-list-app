@@ -1,4 +1,3 @@
-```markdown
 # Todo List App
 
 Este é um aplicativo de lista de tarefas desenvolvido com **Next.js** e **React**. Ele permite que os usuários gerenciem suas tarefas de forma eficiente, com uma interface amigável e responsiva.
@@ -7,8 +6,6 @@ Este é um aplicativo de lista de tarefas desenvolvido com **Next.js** e **React
 
 A estrutura do projeto é organizada da seguinte forma:
 
-```
-.
 ├── .gitignore
 ├── eslint.config.mjs
 ├── next-env.d.ts
@@ -27,7 +24,6 @@ A estrutura do projeto é organizada da seguinte forma:
     ├── cache/
     ├── server/
     └── static/
-```
 
 ### Principais Arquivos e Diretórios
 
@@ -97,6 +93,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-```
-
-Certifique-se de ajustar o conteúdo conforme necessário, como o link do repositório e informações específicas do projeto.
