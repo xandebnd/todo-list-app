@@ -34,7 +34,7 @@ Este é um aplicativo de lista de tarefas desenvolvido com **Next.js** e **React
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/todo-list-app.git
+   git clone https://github.com/xandebnd/todo-list-app.git
    cd todo-list-app
    ```
 
