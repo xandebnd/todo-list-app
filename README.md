@@ -2,29 +2,6 @@
 
 Este é um aplicativo de lista de tarefas desenvolvido com **Next.js** e **React**. Ele permite que os usuários gerenciem suas tarefas de forma eficiente, com uma interface amigável e responsiva.
 
-## Estrutura do Projeto
-
-A estrutura do projeto é organizada da seguinte forma:
-
-├── .gitignore
-├── eslint.config.mjs
-├── next-env.d.ts
-├── next.config.ts
-├── package.json
-├── postcss.config.mjs
-├── README.md
-├── tsconfig.json
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   ├── page.tsx
-│   └── ...
-└── .next/
-    ├── build/
-    ├── cache/
-    ├── server/
-    └── static/
-
 ### Principais Arquivos e Diretórios
 
 - **`src/app/page.tsx`**: Página principal do aplicativo.
