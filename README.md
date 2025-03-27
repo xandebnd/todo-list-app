@@ -1,34 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+# Todo List App
 
-## Getting Started
+Este é um aplicativo de lista de tarefas desenvolvido com **Next.js** e **React**. Ele permite que os usuários gerenciem suas tarefas de forma eficiente, com uma interface amigável e responsiva.
 
-First, run the development server:
+## Estrutura do Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+A estrutura do projeto é organizada da seguinte forma:
+
+```
+.
+├── .gitignore
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── README.md
+├── tsconfig.json
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── page.tsx
+│   └── ...
+└── .next/
+    ├── build/
+    ├── cache/
+    ├── server/
+    └── static/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Principais Arquivos e Diretórios
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **`src/app/page.tsx`**: Página principal do aplicativo.
+- **`src/app/components/`**: Contém os componentes reutilizáveis, como `Footer`, `Main` e `Layout`.
+- **`.next/`**: Diretório gerado automaticamente pelo Next.js após o build.
 
-## Learn More
+## Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js**: Framework React para renderização do lado do servidor e geração de sites estáticos.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Toastify**: Biblioteca para exibição de notificações.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **PostCSS**: Ferramenta para transformar CSS com plugins.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Funcionalidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Adicionar, editar e remover tarefas.
+- Exibição de notificações utilizando o `react-toastify`.
+- Layout responsivo com componentes reutilizáveis.
 
-## Deploy on Vercel
+## Como Executar o Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Pré-requisitos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Node.js (versão 16 ou superior)
+- Gerenciador de pacotes npm ou yarn
+
+### Passos
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/todo-list-app.git
+   cd todo-list-app
+   ```
+
+2. Instale as dependências:
+
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+
+3. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
+
+4. Abra o navegador e acesse `http://localhost:3000`.
+
+## Scripts Disponíveis
+
+- **`npm run dev`**: Inicia o servidor de desenvolvimento.
+- **`npm run build`**: Gera o build de produção.
+- **`npm run start`**: Inicia o servidor em modo de produção.
+- **`npm run lint`**: Executa o linter para verificar problemas no código.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+```
+
+Certifique-se de ajustar o conteúdo conforme necessário, como o link do repositório e informações específicas do projeto.
