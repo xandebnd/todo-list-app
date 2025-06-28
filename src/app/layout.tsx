@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
 	title: "ToDo App",
@@ -19,7 +20,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="pt" className={poppins.className}>
-			<body>{children}</body>
+			<body>
+				{children}
+				<ToastContainer autoClose={2000} closeOnClick={true} />
+			</body>
 		</html>
 	);
 }
